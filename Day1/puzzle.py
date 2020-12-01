@@ -17,5 +17,7 @@ def puzzle_2(file_path):
 
 
 if __name__ == '__main__':
-    print(puzzle_1('./input.csv'))
-    print(puzzle_2('./input.csv'))
+    input_file = './input.csv'
+
+    print(puzzle_1(input_file))
+    print(puzzle_2(input_file))
