@@ -16,7 +16,7 @@ def seat_id(input):
 
 
 def halve_area(instruction, candidate_list):
-    midpoint = int(len(candidate_list) / 2)
+    midpoint = len(candidate_list) // 2
 
     if instruction in ['F', 'L']:
         return candidate_list[:midpoint]
